@@ -29,7 +29,8 @@ docker compose build
 docker compose up
 ```
 
-The application should now be running at `http://localhost:8000`.
+- The application should now be running at `http://localhost:8000`.
+- API Documentation:`/redoc/`
 
 ## Usage
 
@@ -42,8 +43,7 @@ The Task Tracker application provides the following functionality:
 - **Access Control**: The application has different access levels (superuser, staff, and regular users) with
   corresponding permissions.
 
-To use the application, you can interact with the provided API endpoints using a tool like Postman or by building a
-frontend application.
+- To use the application, you can interact with the provided API endpoints using a tool like Postman.
 
 ## API
 
